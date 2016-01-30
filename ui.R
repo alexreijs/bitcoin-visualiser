@@ -2,7 +2,7 @@ library(dygraphs)
 
 shinyUI(fluidPage(
     
-    titlePanel("Bitcoin history visualiser"),
+    titlePanel("Bitcoin Visualiser"),
     
     sidebarLayout(
         sidebarPanel(

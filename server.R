@@ -38,7 +38,7 @@ function(input, output) {
     })
     
     output$documentation <- renderUI({
-        str1 <- "<p>Bitcoin is a decentralised virtual currency. It has many exchange markets on which you can buy or sell BTC This app shows the history of some of these markets.</p>"
+        str1 <- "<p>Bitcoin is a decentralised virtual currency. It has many exchange markets on which you can buy or sell BTC. This app shows the history of some of these markets.</p>"
         str2 <- "<p>For more information on bitcoin, checkout <a target=\"_blank\" href=\"https://bitcoin.org/\">bitcoin.org</a>.</p>"
         str3 <- "<p>Using this visualiser is pretty straight forward. Select a currency, a market and optionally a date range. The chart should load pretty soon after.</p>"
         str4 <- "<p>There are some other settings available for the chart. You can optionally show a grid, upper/lower bars, or zoom in on the last 25% of the available date range.</p>"

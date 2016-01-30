@@ -1,0 +1,29 @@
+library(dygraphs)
+
+shinyUI(fluidPage(
+    
+    titlePanel("Bitcoin history visualiser"),
+    
+    sidebarLayout(
+        sidebarPanel(
+            h3("Data settings"),
+            selectInput("currency", label = "Currency",
+                        choices = c("EUR", "USD"),
+                        selected = "USD"),
+            selectInput("market", label = "Market",
+                        choices = c("bitmarket", "btce", "coinbase", "kraken", "localbtc", "itbit"),
+                        selected = "coinbase"),
+            dateRangeInput("dates", start = "2012-01-01", min = "2012-01-01", max = format(Sys.Date(), format=""),label = "Date range"),
+            hr(),
+            h3("Chart settings"),
+            checkboxInput("showgrid", label = "Show Grid", value = FALSE),
+            checkboxInput("recentzoom", label = "Zoom in on recent trades", value = TRUE),
+            hr(),
+            h3("Documentation"),
+            htmlOutput("documentation")
+        ),
+        mainPanel(
+            dygraphOutput("dygraph", height = "800px")
+        )
+    )
+))

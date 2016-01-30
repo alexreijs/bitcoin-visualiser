@@ -17,6 +17,7 @@ shinyUI(fluidPage(
             hr(),
             h3("Chart settings"),
             checkboxInput("showgrid", label = "Show Grid", value = FALSE),
+            checkboxInput("showbars", label = "Show upper/lowers bars", value = TRUE),
             checkboxInput("recentzoom", label = "Zoom in on recent trades", value = TRUE),
             hr(),
             h3("Documentation"),

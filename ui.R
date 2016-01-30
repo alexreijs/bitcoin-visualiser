@@ -12,7 +12,7 @@ shinyUI(fluidPage(
                         selected = "USD"),
             selectInput("market", label = "Market",
                         choices = c("btce", "coinbase", "kraken", "localbtc", "itbit"),
-                        selected = "coinbase"),
+                        selected = "btce"),
             dateRangeInput("dates", start = "2012-01-01", min = "2012-01-01", max = format(Sys.Date(), format=""),label = "Date range"),
             hr(),
             h3("Chart settings"),

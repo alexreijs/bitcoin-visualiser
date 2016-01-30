@@ -1,9 +1,6 @@
-
 library(dplyr)
 library(xts)
 library(dygraphs)
-
-
 
 getDaily <- function(data) {
     by_date <- group_by(data, date)
@@ -20,8 +17,6 @@ getDaily <- function(data) {
     daily <- mutate(daily, weighted_value = sum_value / sum_amount)
     daily
 }
-
-
 
 getData <- function (exchangeMarket) {
     

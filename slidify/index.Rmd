@@ -79,6 +79,8 @@ dataSample[1:5, c(1, 3, 4, 10, 9)]
 
 ## Credits
 
+A big thanks to the course: <https://www.coursera.org/learn/data-products>
+
 For more information on bitcoin, checkout <https://bitcoin.org>
 
 All market data is a courtesy of Bitcoin Charts (<https://bitcoincharts.com>)

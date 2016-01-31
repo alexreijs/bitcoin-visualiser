@@ -73,8 +73,8 @@ Features listed below are planned for the future:
 ## Data Sample
 
 ```{r}
-dataSample <- readRDS("coinbaseEUR.df")
-dataSample[1:5, c(1, 3, 4, 5, 9)]
+dataSample <- readRDS("../data/coinbaseEUR.df")
+dataSample[1:5, c(1, 3, 4, 10, 9)]
 ```
 
 ## Credits

@@ -1,5 +1,7 @@
 ## README
 
+App is hosted here: <https://sjakil.shinyapps.io/bitcoin-visualiser/>
+
 Bitcoin is a decentralised virtual currency. It has many exchange markets on which you can buy or sell BTC. This app shows the history of some of these markets.
 
 For more information on bitcoin, checkout <https://bitcoin.org>

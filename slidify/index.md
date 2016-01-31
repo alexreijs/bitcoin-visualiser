@@ -19,11 +19,9 @@ This app shows the history of some of these markets. It is meant as a proof of c
 
 For example, by making the data more recent and adding more advanced features, it becomes possible to do analyses that could be used to apply a smart buy/sell strategy.
 
-App shiny: <https://sjakil.shinyapps.io/bitcoin-visualiser>
+Shiny app: <https://sjakil.shinyapps.io/bitcoin-visualiser>
 
-App github: <https://github.com/sjakil/bitcoin-visualiser>
-
-Slidify github: <https://github.com/sjakil/bitcoin-visualiser-slidify>
+Github: <https://github.com/sjakil/bitcoin-visualiser>
 
 --- .class #id 
 
